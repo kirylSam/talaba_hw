@@ -43,6 +43,7 @@ public class Main {
         for (int i = midIndex; i < arrayLength; i++) {
             rightArray[i - midIndex] = inputArray[i];
         }
+
         //calling the method recursively until we have arrays of just one element
         mergeSort(leftArray);
         mergeSort(rightArray);
